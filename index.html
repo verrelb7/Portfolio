@@ -20,34 +20,34 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
      <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="col-12 col-md-8">
                 <h3 class="fw-semibold">Hi! I am</h3>
                 <h1 class="fw-bold">Budiman Fajari</h1>
                 <p>I am Web Developer from Indonesia</p>
                 <a class="btn button" href="Images/potrait.png" download>Resume</a>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                 <img src="Images/potrait.png" alt="potrait">
             </div>
         </div>
-        <div class=" arrow w-100 d-flex align-items-center flex-column mt-5">
-            <a class= "text-decoration-none text-dark"href="#about">More Info</a>
+        <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+            <div class= "text-dark">More Info</div>
             <img id="arrow" class="mt-2" src="Images/arrow.svg" alt="arrow">
-        </div>
+        </a>
      </section>
      <section id="about" class="about container">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum distinctio illum amet quidem rerum explicabo eaque doloribus, at earum error recusandae sint voluptatum in. Nostrum ad nobis tempora esse consequuntur tenetur, provident repudiandae libero, impedit maxime dolorum architecto repellat omnis exercitationem hic ratione atque rerum, est alias consequatur? Alias, ad?</p>
@@ -86,10 +86,10 @@
       </section>
       <section id="work" class="work container">
         <div class="row d-flex align-items-center gap-5">
-          <div class="col">
+          <div class="col-12 col-5">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, iure nobis repellendus aspernatur vero ab perspiciatis enim totam veniam magni dicta molestiae error eaque reprehenderit? Odit cumque eius doloremque animi dolorum iure praesentium, perferendis temporibus, placeat illo velit quaerat laboriosam voluptates nulla fugit distinctio reiciendis excepturi sequi dolor, molestiae similique.</p>
           </div>
-          <div class="col work-img">
+          <div class="col-12 col-6 work-img">
             <div id="work-1" class="work-img-item">
               <img src="Images/work-1.png" alt="work 1">
             </div>
@@ -109,25 +109,25 @@
             <div class="row">
               <div class="col d-flex align-items-center">
                 <div class="col">
-                  <img src="Images/Facebook.svg" alt="facebook icon">
-                  <p>Fjr Budiman</p>
+                  <img class="w-25" src="Images/Facebook.svg" alt="facebook icon">
+                  <p class="mb-0 ms-2">Fjr Budiman</p>
                 </div>
               </div>
               <div class="col d-flex align-items-center">
                 <div class="col">
-                  <img src="Images/Instagram.svg" alt="instagram icon">
-                  <p>@fjrideas</p>
+                  <img class="w-25" src="Images/Instagram.svg" alt="instagram icon">
+                  <p class="mb-0 ms-2">@fjrideas</p>
                 </div>
               </div>
               <div class="col d-flex align-items-center">
-                <div class="col">
-                  <img src="Images/Twitter.svg" alt="twitter icon">
-                  <p>@fjrideas</p>
+                <div class="col-12 col-lg-6">
+                  <img class="w-25" src="Images/Twitter.svg" alt="twitter icon">
+                  <p class="mb-0 ms-2">@fjrideas</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-lg-5">
             <form class="contact-form" onsubmit="onFormSubmit(event)">
               <div class="mb-3">
                 <label for="inp-email" class="form-label">Email address</label>
